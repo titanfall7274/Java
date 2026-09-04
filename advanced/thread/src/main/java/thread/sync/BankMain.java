@@ -5,8 +5,11 @@ import static util.ThreadUtils.sleep;
 
 public class BankMain {
     public static void main(String[] args) throws InterruptedException {
-//        BankAccountV2 account = new BankAccountV2(1000); //  = new BankAccountV1(1000);
-        BankAccountV3 account = new BankAccountV3(1000); //  = new BankAccountV1(1000);
+//        BankAccount account = new BankAccountV2(1000);
+//        BankAccount account = new BankAccountV3(1000);
+//        BankAccount account = new BankAccountV4(1000);
+//        BankAccount account = new BankAccountV5(1000);
+        BankAccount account = new BankAccountV6(1000);
 
         // 같은 사용자가 동시에 출금시도
         Thread t1 = new Thread(new WithdrawTask(account, 800), "t1");
