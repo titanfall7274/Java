@@ -24,7 +24,7 @@ public class BankAccountV4 implements BankAccount {
 
             log("[검증 시작] 출금액: " + amount + ", 잔액 " + balance);
             if (balance < amount) {
-                log("[검증 실패] 출금액: " + amount + ", 잔액" + balance);
+                log("[검증 실패] 출금액: " + amount + ", 잔액 " + balance);
                 return false;
             }
 

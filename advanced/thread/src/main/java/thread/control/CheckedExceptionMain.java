@@ -11,7 +11,7 @@ public class CheckedExceptionMain {
     static class CheckedRunnable implements Runnable {
         @Override
         public void run() /*throws Exception*/ {
-            // throw nwe Exception; // 예외 던지기가 불가능합니다.
+            // throw new Exception; // 예외 던지기가 불가능합니다.
 
 
             // ThreadUtils.sleep(millis);

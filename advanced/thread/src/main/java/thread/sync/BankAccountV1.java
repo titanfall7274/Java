@@ -19,7 +19,7 @@ public class BankAccountV1 implements BankAccount {
         // 잔고가 출금액 보다 적으면, 미진행
         log("[검증 시작] 출금액: " + amount + ", 잔액 " + balance);
         if(balance < amount) {
-            log("[검증 실패] 출금액: " + amount + ", 잔액" + balance);
+            log("[검증 실패] 출금액: " + amount + ", 잔액 " + balance);
             return false;
         }
 
