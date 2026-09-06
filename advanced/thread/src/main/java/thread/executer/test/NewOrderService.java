@@ -8,9 +8,9 @@ import static util.ThreadUtils.sleep;
 
 public class NewOrderService {
 
-    public void order(String orderNo) throws InterruptedException, ExecutionException {
+    ExecutorService es = Executors.newFixedThreadPool(3);
 
-        ExecutorService es = Executors.newFixedThreadPool(3);
+    public void order(String orderNo) throws InterruptedException, ExecutionException {
 
         // runnable 객체들
         InventoryWork inventoryWork = new InventoryWork(orderNo);
