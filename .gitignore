@@ -29,3 +29,6 @@ target/
 *.log
 .DS_Store
 Thumbs.db
+
+# 입출력 실습에서 생성되는 대용량 파일
+advanced/InputOutputNetworkReflection/temp/copy*.dat
