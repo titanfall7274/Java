@@ -13,9 +13,8 @@
 ├── basic/                     # 김영한 자바 기본편
 │   ├── java-basic/src/        # 실습 코드 (패키지 = 챕터)
 │   ├── java-mid1/src/         # 자바 중급편 1 실습 코드
-│   ├── java-mid2/src/         # 자바 중급편 2 실습 코드 (제네릭·컬렉션)
+│   ├── java-mid2/src/         # 자바 중급편 2 실습 코드 (제네릭·컬렉션), 정리 md는 src/docs/
 │   ├── docs/javaBasic/        # 기본편 학습 정리 md
-│   ├── docs/javaMid2/         # 중급편 2 학습 정리 md
 │   └── 강의자료/               # 강의 PDF (git 무시)
 ├── college/                   # 학교 자바 프로그래밍 수업
 │   ├── README.md              # 주차 인덱스
@@ -63,7 +62,7 @@
 
 ### 중급편 2 — 김영한 자바 중급편 2 (제네릭·컬렉션)
 
-실습 코드: [`basic/java-mid2/src`](basic/java-mid2/src) · 정리 md: [`basic/docs/javaMid2/`](basic/docs/javaMid2) — 챕터별 뼈대(PDF 목차 기반 섹션 제목)만 만들어 둔 상태
+실습 코드: [`basic/java-mid2/src`](basic/java-mid2/src) · 정리 md: [`basic/java-mid2/src/docs/`](basic/java-mid2/src/docs) — 챕터별 뼈대(PDF 목차 기반 섹션 제목)만 만들어 둔 상태
 
 <details>
 <summary><b>챕터별 정리</b> (0/11)</summary>

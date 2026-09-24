@@ -20,7 +20,7 @@
    | 강의 | 정리 위치 | PDF 강의자료 위치 (git 무시) | 실습 코드 |
    |------|----------|------------------------------|-----------|
    | 기본편 (김영한) | `basic/docs/javaBasic/NN. 제목.md` | `basic/강의자료/` | `basic/java-basic/src/<패키지>/` |
-| 중급편 2 (김영한) | `basic/docs/javaMid2/NN. 제목.md` | `basic/java-mid2/강의자료/` | `basic/java-mid2/src/<패키지>/` |
+| 중급편 2 (김영한) | `basic/java-mid2/src/docs/NN. 제목.md` | `basic/java-mid2/강의자료/` | `basic/java-mid2/src/<패키지>/` |
    | 학교 수업 | `college/<N>week/README.md` | — (별도 자료 없음) | `college/<N>week/{example,practice}/src/` |
 
    - 기본편 파일명은 PDF와 동일한 제목에 두 자리 번호를 붙여 `NN. 제목.md`
@@ -70,7 +70,7 @@
 
 ### 중급편 2 — 김영한 자바 중급편 2 (제네릭·컬렉션)
 
-`docs/javaMid2/`에 챕터별 md **뼈대**(PDF 목차에서 뽑은 `##` 섹션 제목 + 빈 본문)를 미리 만들어 뒀다.
+`basic/java-mid2/src/docs/`에 챕터별 md **뼈대**(PDF 목차에서 뽑은 `##` 섹션 제목 + 빈 본문)를 미리 만들어 뒀다.
 정리 요청이 오면 새 파일을 만들지 말고 해당 뼈대를 채운다. 패키지명은 PDF 예제 코드의 `package` 선언 기준.
 
 | # | 챕터 | 실습 코드 패키지 | 정리 |
