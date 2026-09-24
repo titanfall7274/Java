@@ -20,6 +20,7 @@
    | 강의 | 정리 위치 | PDF 강의자료 위치 (git 무시) | 실습 코드 |
    |------|----------|------------------------------|-----------|
    | 기본편 (김영한) | `basic/docs/javaBasic/NN. 제목.md` | `basic/강의자료/` | `basic/java-basic/src/<패키지>/` |
+| 중급편 2 (김영한) | `basic/docs/javaMid2/NN. 제목.md` | `basic/java-mid2/강의자료/` | `basic/java-mid2/src/<패키지>/` |
    | 학교 수업 | `college/<N>week/README.md` | — (별도 자료 없음) | `college/<N>week/{example,practice}/src/` |
 
    - 기본편 파일명은 PDF와 동일한 제목에 두 자리 번호를 붙여 `NN. 제목.md`
@@ -67,6 +68,25 @@
 | 12 | 다형성과 설계 | `poly/ex` | ⬜ |
 | 13 | 다음으로 | — | ⬜ |
 
+### 중급편 2 — 김영한 자바 중급편 2 (제네릭·컬렉션)
+
+`docs/javaMid2/`에 챕터별 md **뼈대**(PDF 목차에서 뽑은 `##` 섹션 제목 + 빈 본문)를 미리 만들어 뒀다.
+정리 요청이 오면 새 파일을 만들지 말고 해당 뼈대를 채운다. 패키지명은 PDF 예제 코드의 `package` 선언 기준.
+
+| # | 챕터 | 실습 코드 패키지 | 정리 |
+|---|------|-----------------|------|
+| 01 | 제네릭 - Generic1 | `generic.ex1`, `ex2`, `animal` | ⬜ |
+| 02 | 제네릭 - Generic2 | `generic.ex3`~`ex5` | ⬜ |
+| 03 | 컬렉션 프레임워크 - ArrayList | `collection.array` | ⬜ |
+| 04 | 컬렉션 프레임워크 - LinkedList | `collection.link` | ⬜ |
+| 05 | 컬렉션 프레임워크 - List | `collection.list` | ⬜ |
+| 06 | 컬렉션 프레임워크 - 해시(Hash) | `collection.set` | ⬜ |
+| 07 | 컬렉션 프레임워크 - HashSet | `collection.set` | ⬜ |
+| 08 | 컬렉션 프레임워크 - Set | `collection.set.javaset` | ⬜ |
+| 09 | 컬렉션 프레임워크 - Map, Stack, Queue | `collection.map`, `collection.deque` | ⬜ |
+| 10 | 컬렉션 프레임워크 - 순회, 정렬, 전체 정리 | `collection.iterable`, `compare`, `utils` | ⬜ |
+| 11 | 다음으로 | — | ⬜ |
+
 **부록** — 챕터 순번과 무관한 배경 지식 정리는 `basic/docs/javaBasic/부록X. 제목.md`로 저장한다.
 
 | 문서 | 내용 |
@@ -98,10 +118,11 @@
 
 ## 프로젝트 메모
 
-### 기본편 — `basic/java-basic`, `basic/java-mid1`
+### 기본편 — `basic/java-basic`, `basic/java-mid1`, `basic/java-mid2`
 - `basic/java-basic` — 자바 기본편 실습 코드. 빌드 도구 없이 `src/` 하나로 구성된
   IntelliJ 학습 프로젝트. **패키지 = 챕터 단위**(`class1`, `ref`, `oop1`, `poly` …).
 - `basic/java-mid1` — 자바 중급편 1 실습 코드. 같은 구조의 별도 프로젝트.
+- `basic/java-mid2` — 자바 중급편 2(제네릭·컬렉션) 실습 코드. 같은 구조. 강의자료 PDF는 프로젝트 안 `강의자료/`에 있다(루트 `.gitignore`의 `강의자료/` 패턴으로 제외).
 - 컴파일 산출물 `out/`과 `*.iml`은 `.gitignore`로 커밋에서 제외한다.
 - 원래 `basic/answer`(정답지)와 `basic/java-basic`(연습장) 둘로 나뉘어 있었으나
   `구조정리` 커밋에서 `java-basic` 하나로 통합했다.

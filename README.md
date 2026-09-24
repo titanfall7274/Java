@@ -12,8 +12,10 @@
 .
 ├── basic/                     # 김영한 자바 기본편
 │   ├── java-basic/src/        # 실습 코드 (패키지 = 챕터)
-│   ├── java-mid1/src/         # 자바 중급편 실습 코드
-│   ├── docs/javaBasic/        # 학습 정리 md
+│   ├── java-mid1/src/         # 자바 중급편 1 실습 코드
+│   ├── java-mid2/src/         # 자바 중급편 2 실습 코드 (제네릭·컬렉션)
+│   ├── docs/javaBasic/        # 기본편 학습 정리 md
+│   ├── docs/javaMid2/         # 중급편 2 학습 정리 md
 │   └── 강의자료/               # 강의 PDF (git 무시)
 ├── college/                   # 학교 자바 프로그래밍 수업
 │   ├── README.md              # 주차 인덱스
@@ -58,6 +60,29 @@
 | 문서 | 내용 |
 |------|------|
 | [부록A. `new` 인스턴스 생성 과정 — JVM에서 CPU까지](basic/docs/javaBasic/부록A.%20new%20인스턴스%20생성%20과정%20—%20JVM에서%20CPU까지.md) | 바이트코드 → 클래스 로딩 → 힙 할당 → JIT → OS → CPU 전 과정 다이어그램 |
+
+### 중급편 2 — 김영한 자바 중급편 2 (제네릭·컬렉션)
+
+실습 코드: [`basic/java-mid2/src`](basic/java-mid2/src) · 정리 md: [`basic/docs/javaMid2/`](basic/docs/javaMid2) — 챕터별 뼈대(PDF 목차 기반 섹션 제목)만 만들어 둔 상태
+
+<details>
+<summary><b>챕터별 정리</b> (0/11)</summary>
+
+| # | 챕터 | 실습 코드 패키지 | 정리 |
+|---|------|-----------------|------|
+| 01 | 제네릭 - Generic1 | `generic.ex1`, `ex2`, `animal` | ⬜ |
+| 02 | 제네릭 - Generic2 | `generic.ex3`~`ex5` | ⬜ |
+| 03 | 컬렉션 프레임워크 - ArrayList | `collection.array` | ⬜ |
+| 04 | 컬렉션 프레임워크 - LinkedList | `collection.link` | ⬜ |
+| 05 | 컬렉션 프레임워크 - List | `collection.list` | ⬜ |
+| 06 | 컬렉션 프레임워크 - 해시(Hash) | `collection.set` | ⬜ |
+| 07 | 컬렉션 프레임워크 - HashSet | `collection.set` | ⬜ |
+| 08 | 컬렉션 프레임워크 - Set | `collection.set.javaset` | ⬜ |
+| 09 | 컬렉션 프레임워크 - Map, Stack, Queue | `collection.map`, `collection.deque` | ⬜ |
+| 10 | 컬렉션 프레임워크 - 순회, 정렬, 전체 정리 | `collection.iterable`, `compare`, `utils` | ⬜ |
+| 11 | 다음으로 | — | ⬜ |
+
+</details>
 
 ### 학교 수업 — 자바 프로그래밍
 
