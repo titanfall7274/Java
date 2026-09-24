@@ -1,10 +1,10 @@
 package io.buffered;
 
-import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import static io.buffered.BufferedConst.*;
+import static io.buffered.BufferedConst.FILE_NAME;
+import static io.buffered.BufferedConst.FILE_SIZE;
 
 public class CreateFileV4 {
 

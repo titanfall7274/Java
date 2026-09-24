@@ -1,10 +1,8 @@
 package io.file.text;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.List;
 import java.util.stream.Stream;
 
 import static java.nio.charset.StandardCharsets.UTF_8;

@@ -1,8 +1,6 @@
 package io.text;
 
 import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 
 import static io.text.TextConst.FILE_NAME;
 import static java.nio.charset.StandardCharsets.UTF_8;

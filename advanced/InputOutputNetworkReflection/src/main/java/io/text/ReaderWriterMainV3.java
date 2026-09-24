@@ -1,7 +1,8 @@
 package io.text;
 
-import java.io.*;
-import java.nio.charset.StandardCharsets;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 
 import static io.text.TextConst.FILE_NAME;
 import static java.nio.charset.StandardCharsets.UTF_8;

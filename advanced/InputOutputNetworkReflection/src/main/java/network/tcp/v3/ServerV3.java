@@ -1,7 +1,5 @@
 package network.tcp.v3;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -13,7 +11,7 @@ public class ServerV3 {
     public static final int PORT = 12345; // 서버
 
     public static void main(String[] args) throws IOException {
-        log("Server Start");
+        log("Session Start");
         ServerSocket serverSocket = new ServerSocket(PORT);
         log("서버 소켓 시작 - 리스닝 포트: " + PORT);
 

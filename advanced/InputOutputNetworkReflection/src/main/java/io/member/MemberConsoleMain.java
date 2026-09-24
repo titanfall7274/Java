@@ -1,7 +1,5 @@
 package io.member;
 
-import io.member.impl.FileMemberRepository;
-import io.member.impl.MemoryMemberRepository;
 import io.member.impl.ObjectMemberRepository;
 
 import java.util.List;

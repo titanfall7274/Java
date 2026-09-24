@@ -13,7 +13,7 @@ public class ServerV2 {
     public static final int PORT = 12345; // 서버
 
     public static void main(String[] args) throws IOException {
-        log("Server Start");
+        log("Session Start");
 
         ServerSocket serverSocket = new ServerSocket(PORT);
         Socket socket = serverSocket.accept();
