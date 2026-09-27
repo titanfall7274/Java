@@ -92,7 +92,7 @@ public class MyLinkedListV2 {
 
     @Override
     public String toString() {
-        return "MyLinkedListV1{" +
+        return "MyLinkedListV2{" +
                 "first=" + first +
                 ", size=" + size +
                 '}';

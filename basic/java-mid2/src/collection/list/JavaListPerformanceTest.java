@@ -9,7 +9,7 @@ public class JavaListPerformanceTest {
     public static void main(String[] args) {
         int size = 50_000;
 
-        System.out.println("== MyArraylist 추가==");
+        System.out.println("== ArrayList 추가==");
         addFirst(new ArrayList<>(), size); // 2807ms; 찾는데 O(1), 전부 밀기 O(n), 추가 O(1)
         addMid(new LinkedList<>(), size); // 1651ms; 찾는데 O(1), 밀기 O(n)
 

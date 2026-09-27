@@ -8,11 +8,11 @@ import java.util.Set;
 public class ArrayToMapTest {
 
     public static void main(String[] args) {
-        String[][] prodctArr = {{"java", "10000"}, {"Spring", "20000"}, {"JPA", "30000"}};
+        String[][] productArr = {{"java", "10000"}, {"Spring", "20000"}, {"JPA", "30000"}};
 
         // 주어진 배열로부터 Map 생성 - 코드 작성
         Map<String, Integer> hashMap = new HashMap<>();
-        for (String[] strings : prodctArr) {
+        for (String[] strings : productArr) {
             hashMap.putIfAbsent(strings[0], Integer.valueOf(strings[1]));
         }
 

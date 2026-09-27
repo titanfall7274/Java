@@ -10,10 +10,10 @@ public class MethodMain3 {
         Dog dog = new Dog("멍멍이1", 100);
         Cat cat = new Cat("냐옹이1", 300);
 
-        ComplexBox<Dog> hosiptal = new ComplexBox<>();
-        hosiptal.set(dog);
+        ComplexBox<Dog> hospital = new ComplexBox<>();
+        hospital.set(dog);
 
-        Cat returnCat = hosiptal.<Cat>printAndReturn(cat);
+        Cat returnCat = hospital.<Cat>printAndReturn(cat);
 
         System.out.println("returnCat = " + returnCat);
     }

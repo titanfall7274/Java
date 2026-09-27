@@ -17,10 +17,10 @@ public class HashAndEqualsMain2 {
         System.out.println("m2.hashCode() = " + m2.hashCode());
 
         // HashCode는 Override하였지만 Equals는 Override 하지 않은 경우이다.
-        // 둘은 서로 다른 같은 참조를 가지고있다.
+        // 둘은 서로 다른 참조를 가지고있다.
         System.out.println("m1.equals(m2) = " + m1.equals(m2));
 
-        // System.identityHashode(Object x)를 통해 ref를 출력해볼수있다.
+        // System.identityHashCode(Object x)를 통해 ref를 출력해볼수있다.
 /*
         System.ref(m1) = 317574433
         System.ref(m2) = 885284298

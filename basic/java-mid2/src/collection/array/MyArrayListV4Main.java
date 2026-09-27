@@ -7,7 +7,7 @@ public class MyArrayListV4Main {
         stringList.add("a");
         stringList.add("b");
         stringList.add("c");
-//        stringList.add(2); // 타입 안정성 파일 에러
+//        stringList.add(2); // 타입 안전성: 컴파일 에러
         String string = stringList.get(0); // 캐스팅을 통한 타입 반환
         System.out.println("string = " + string);
 

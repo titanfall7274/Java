@@ -8,7 +8,7 @@ public class EraseBox<T> {
         return false;
     }
 
-    // Eraser에 의해 return new Object()가 되며 개발자가 의도한것과는 다른 결과를 뱉게된다.
+    // 이레이저(Erasure)에 의해 return new Object()가 되며 개발자가 의도한것과는 다른 결과를 뱉게된다.
     // 하나의 직관적인 예시는 상한제한을 <T extends Animal>로 걸었을 경우 Dog라는 Type이 날아가고 Animal이 들어가
     // Dog가 리턴되는게 아니라 return new Animal()이 되어버린다
     public void create() {

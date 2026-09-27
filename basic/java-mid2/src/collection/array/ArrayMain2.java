@@ -20,7 +20,7 @@ public class ArrayMain2 {
         System.out.println(Arrays.toString(arr));
 
         // index 위치에 추가
-        // 기본 배열의 데이터를 한 칸씩 뒤로밀고 배열의 첫 번째 위치에 추가
+        // index부터 데이터를 한 칸씩 뒤로밀고 index 위치에 추가
         System.out.println("배열의 index(2) 위치에 4 추가 O(n)");
         int index = 2;
         int value2 = 4;

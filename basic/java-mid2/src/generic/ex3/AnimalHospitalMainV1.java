@@ -6,8 +6,8 @@ import generic.animal.Dog;
 public class AnimalHospitalMainV1 {
 
     public static void main(String[] args) {
-        AnimalHostpitalV1 dogHospital = new AnimalHostpitalV1();
-        AnimalHostpitalV1 catHospital = new AnimalHostpitalV1();
+        AnimalHospitalV1 dogHospital = new AnimalHospitalV1();
+        AnimalHospitalV1 catHospital = new AnimalHospitalV1();
 
         Dog dog = new Dog("멍멍이1", 100);
         Cat cat = new Cat("냐옹이1", 300);
@@ -27,6 +27,6 @@ public class AnimalHospitalMainV1 {
         Dog biggerDog = (Dog) dogHospital.bigger(new Dog("멍멍이2", 200));
         System.out.println("biggerDog = " + biggerDog);
 
-        // 재사용 o, 타입 안정성 x
+        // 재사용 o, 타입 안전성 x
     }
 }

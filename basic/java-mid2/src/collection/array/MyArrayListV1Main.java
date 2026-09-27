@@ -28,7 +28,7 @@ public class MyArrayListV1Main {
         list.add("e");
         System.out.println(list);
 
-        // 범위 초과, 사이즈가 늘어나지 않으면 에외 발생
+        // 범위 초과, 사이즈가 늘어나지 않으면 예외 발생
         list.add("f"); // ArrayIndexOutOfBoundsException
 
     }

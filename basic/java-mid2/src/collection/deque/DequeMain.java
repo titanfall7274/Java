@@ -3,7 +3,7 @@ package collection.deque;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-// DoubleEndQueue
+// Double Ended Queue
 public class DequeMain {
 
     public static void main(String[] args) {

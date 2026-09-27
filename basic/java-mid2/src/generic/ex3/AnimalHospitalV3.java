@@ -2,8 +2,8 @@ package generic.ex3;
 
 import generic.animal.Animal;
 
-// 타입 매개변수 상한을 사용하여 타입을 제한하여 타입 안정성을 만족할 수 있습니다.
-public class AnimalHostpitalV3<T extends Animal> {
+// 타입 매개변수 상한을 사용하여 타입을 제한하여 타입 안전성을 만족할 수 있습니다.
+public class AnimalHospitalV3<T extends Animal> {
 
     private T animal;
 

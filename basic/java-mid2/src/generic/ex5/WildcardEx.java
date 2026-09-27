@@ -11,7 +11,7 @@ public class WildcardEx {
 
     // 제네릭 메서드가 아닌 일반적인 메서드이다.
     // Box<Dog> dogBox를 전달한다. 와일드카드는 모든 타입을 받을 수 있다.
-    // 다음과 같이 해석할 수 있다. ? == Obejct
+    // 다음과 같이 해석할 수 있다. ? == Object
     static void printWildcardV1(Box<?> box) {
         System.out.println("? = " + box.get());
     }

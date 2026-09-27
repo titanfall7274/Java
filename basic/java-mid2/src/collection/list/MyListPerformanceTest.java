@@ -5,7 +5,7 @@ public class MyListPerformanceTest {
     public static void main(String[] args) {
         int size = 50_000;
 
-        System.out.println("== MyArraylist 추가==");
+        System.out.println("== MyArrayList 추가==");
         addFirst(new MyArrayList<>(), size); // 2807ms; 찾는데 O(1), 전부 밀기 O(n), 추가 O(1)
         addMid(new MyArrayList<>(), size); // 1651ms; 찾는데 O(1), 밀기 O(n)
 

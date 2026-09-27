@@ -26,7 +26,7 @@ public class MemberOnlyHash {
 
     @Override
     public String toString() {
-        return "MemberNoHashEq{" +
+        return "MemberOnlyHash{" +
                 "id='" + id + '\'' +
                 '}';
     }

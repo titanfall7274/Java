@@ -4,13 +4,13 @@ import java.util.Arrays;
 
 public class MyArrayList<E> implements MyList<E> {
 
-    private final int DEFAULT_CAPACIRY = 5;
+    private final int DEFAULT_CAPACITY = 5;
 
     private Object[] elementData;
     private int size = 0;
 
     public MyArrayList() {
-        elementData = new Object[DEFAULT_CAPACIRY];
+        elementData = new Object[DEFAULT_CAPACITY];
     }
 
     public MyArrayList(int initialCapacity) {

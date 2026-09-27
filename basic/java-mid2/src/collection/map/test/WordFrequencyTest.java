@@ -18,7 +18,7 @@ public class WordFrequencyTest {
             count++;
 
             hashMap.put(word, count);
-            // map.put(word, map.getOfDefault(word, 0) + 1);
+            // map.put(word, map.getOrDefault(word, 0) + 1);
         }
 
         System.out.println("words = " + hashMap);

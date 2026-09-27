@@ -80,14 +80,14 @@ public class MyArrayListV4<E> {
 
     public E remove(int index) {
         E oldValue = get(index);
-        siftLeftFrom(index);
+        shiftLeftFrom(index);
 
         size--;
         elementData[size] = null;
         return oldValue;
     }
 
-    private void siftLeftFrom(int index) {
+    private void shiftLeftFrom(int index) {
         for (int i = index; i < elementData.length - 1; i++) {
             elementData[i] = elementData[i + 1];
         }

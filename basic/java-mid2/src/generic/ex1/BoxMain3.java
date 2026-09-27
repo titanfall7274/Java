@@ -3,7 +3,7 @@ package generic.ex1;
 public class BoxMain3 {
 
     // 제네릭을 적용하여
-    // 타입 안정성
+    // 타입 안전성
     // 코드 재사용
     // 이라는 두마리 토끼를 모두 붙잡을 수 있었다.
     public static void main(String[] args) {

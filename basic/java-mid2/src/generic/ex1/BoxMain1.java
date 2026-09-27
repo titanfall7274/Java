@@ -8,7 +8,7 @@ public class BoxMain1 {
     public static void main(String[] args) {
         IntegerBox integerBox = new IntegerBox();
         integerBox.setValue(10);
-//        integerBox.setValue("20"); // compile Error가 발생하여 타입 안정성이 높다.
+//        integerBox.setValue("20"); // compile Error가 발생하여 타입 안전성이 높다.
         Integer integer = integerBox.getValue();
         System.out.println("integer = " + integer);
 

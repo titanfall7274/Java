@@ -69,7 +69,7 @@ public class MyHashSetV3<E> implements MySet<E> {
         int hashIndex = hashIndex(value);
         LinkedList<E> bucket = buckets[hashIndex];
 
-        // int value > Obejct value가 되면서 Integer.valueOf가 삭제되었다.
+        // int value > Object value가 되면서 Integer.valueOf가 삭제되었다.
         boolean result = bucket.remove(value);
         if (result) {
             size--;

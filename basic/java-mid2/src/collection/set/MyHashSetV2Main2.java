@@ -2,7 +2,7 @@ package collection.set;
 
 import collection.set.member.Member;
 
-public class MyHashsetV2Main2 {
+public class MyHashSetV2Main2 {
 
     public static void main(String[] args) {
         MyHashSetV2 set = new MyHashSetV2(10);

@@ -25,7 +25,7 @@ public class HashAndEqualsMain1 {
         System.out.println(set);
 
         // 검색 실패 - 3번째에서 찾아야하는데 아무것도 없음
-        // 설령 번호가 우연히 맞았다 하더라고 equals 비교에서 실패할것이다.
+        // 설령 번호가 우연히 맞았다 하더라도 equals 비교에서 실패할것이다.
         MemberNoHashEq searchValue = new MemberNoHashEq("A");
         System.out.println("searchValue.hashCode() = " + searchValue.hashCode());
         boolean contains = set.contains(searchValue);

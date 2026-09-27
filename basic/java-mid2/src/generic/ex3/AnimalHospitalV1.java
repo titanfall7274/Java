@@ -2,7 +2,7 @@ package generic.ex3;
 
 import generic.animal.Animal;
 
-public class AnimalHostpitalV1 {
+public class AnimalHospitalV1 {
 
     private Animal animal;
 

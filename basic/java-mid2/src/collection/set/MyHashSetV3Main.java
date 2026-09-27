@@ -1,6 +1,6 @@
 package collection.set;
 
-public class MyHashsetV3Main {
+public class MyHashSetV3Main {
 
     public static void main(String[] args) {
         MySet<String> set = new MyHashSetV3<>();

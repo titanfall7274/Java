@@ -2,7 +2,7 @@ package collection.iterable;
 
 import java.util.*;
 
-public class JavIterableMain {
+public class JavaIterableMain {
 
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();

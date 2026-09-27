@@ -28,6 +28,6 @@ public class AnimalHospitalMainV0 {
         Dog biggerDog = dogHospital.bigger(new Dog("멍멍이2", 200));
         System.out.println("biggerDog = " + biggerDog);
 
-        // 재사용 x, 타입 안정성 o
+        // 재사용 x, 타입 안전성 o
     }
 }

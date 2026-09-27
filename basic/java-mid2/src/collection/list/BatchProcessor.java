@@ -2,7 +2,7 @@ package collection.list;
 
 public class BatchProcessor {
 
-    //    private final MyArrayList<Integer> list = new MyArrayList<>(); // 연결리스트
+    //    private final MyArrayList<Integer> list = new MyArrayList<>(); // 배열 리스트
 //    private final MyLinkedList<Integer> list = new MyLinkedList<>(); // 링크드 리스트
     private final MyList<Integer> list;
 

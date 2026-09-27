@@ -1,6 +1,6 @@
 package generic.ex3;
 
-public class AnimalHostpitalV2<T> {
+public class AnimalHospitalV2<T> {
 
     private T animal;
 
@@ -10,7 +10,7 @@ public class AnimalHostpitalV2<T> {
 
     public void checkUp() {
         // 컴파일 에러 발생
-        // T의 타입을 메서드를 장의하는 시점에는 알 수 없다. Object의 기능만 사용
+        // T의 타입을 메서드를 정의하는 시점에는 알 수 없다. Object의 기능만 사용
         animal.toString();
         animal.equals(null);
 

@@ -6,13 +6,13 @@ import generic.animal.Dog;
 public class AnimalHospitalMainV2 {
 
     public static void main(String[] args) {
-        AnimalHostpitalV2<Dog> dogHospital = new AnimalHostpitalV2<>();
-        AnimalHostpitalV2<Cat> catHospital = new AnimalHostpitalV2<>();
+        AnimalHospitalV2<Dog> dogHospital = new AnimalHospitalV2<>();
+        AnimalHospitalV2<Cat> catHospital = new AnimalHospitalV2<>();
 
         // T에 Dog, Cat말고도 다른 타입들이 제네릭 타입으로 가능하게된다.
-        AnimalHostpitalV2<Integer> integerHospital = new AnimalHostpitalV2<>();
-        AnimalHostpitalV2<Double> doubleHospital = new AnimalHostpitalV2<>();
-        AnimalHostpitalV2<Object> objectHospital = new AnimalHostpitalV2<>();
+        AnimalHospitalV2<Integer> integerHospital = new AnimalHospitalV2<>();
+        AnimalHospitalV2<Double> doubleHospital = new AnimalHospitalV2<>();
+        AnimalHospitalV2<Object> objectHospital = new AnimalHospitalV2<>();
 
         // 문제
         // 1. 제네릭에서 타입 매개변수를 사용하면 어떤 타입이든 들어올 수 있다.
