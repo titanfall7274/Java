@@ -23,9 +23,14 @@ public class GenericMethod {
     }
 
 
-    static <V> V staticMethod2(V t) { return null; } // static 메서드에 제네릭 메서드 도입
+    static <V> V staticMethod2(V t) {
+        return null;
+    } // static 메서드에 제네릭 메서드 도입
+
     // 단, 제네릭 타입은 static 메서드에 타입 매개변수를 사용하지는 못한다.
     // 객체를 생성하는 시점에 타입이 정해지기 때문이다.
     // ex) static T staticMethod(T t) {}
-    <Z> Z instanceMethod2(Z z) { return null; } // 인스턴스 메서드에 제네릭 메서드 도입 가능
+    <Z> Z instanceMethod2(Z z) {
+        return null;
+    } // 인스턴스 메서드에 제네릭 메서드 도입 가능
 }
