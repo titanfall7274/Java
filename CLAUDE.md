@@ -70,22 +70,21 @@
 
 ### 중급편 2 — 김영한 자바 중급편 2 (제네릭·컬렉션)
 
-`basic/java-mid2/src/docs/`에 챕터별 md **뼈대**(PDF 목차에서 뽑은 `##` 섹션 제목 + 빈 본문)를 미리 만들어 뒀다.
-정리 요청이 오면 새 파일을 만들지 말고 해당 뼈대를 채운다. 패키지명은 PDF 예제 코드의 `package` 선언 기준.
+`basic/java-mid2/src/docs/`의 챕터별 md(PDF 목차 기반 `##` 섹션)를 01~10장 모두 채웠고, 전체 복습용 `00. 전체 리뷰 - 제네릭과 컬렉션.md`를 따로 둔다. 패키지명은 PDF 예제 코드의 `package` 선언 기준.
 
 | # | 챕터 | 실습 코드 패키지 | 정리 |
 |---|------|-----------------|------|
-| 01 | 제네릭 - Generic1 | `generic.ex1`, `ex2`, `animal` | ⬜ |
-| 02 | 제네릭 - Generic2 | `generic.ex3`~`ex5` | ⬜ |
-| 03 | 컬렉션 프레임워크 - ArrayList | `collection.array` | ⬜ |
-| 04 | 컬렉션 프레임워크 - LinkedList | `collection.link` | ⬜ |
-| 05 | 컬렉션 프레임워크 - List | `collection.list` | ⬜ |
-| 06 | 컬렉션 프레임워크 - 해시(Hash) | `collection.set` | ⬜ |
-| 07 | 컬렉션 프레임워크 - HashSet | `collection.set` | ⬜ |
-| 08 | 컬렉션 프레임워크 - Set | `collection.set.javaset` | ⬜ |
-| 09 | 컬렉션 프레임워크 - Map, Stack, Queue | `collection.map`, `collection.deque` | ⬜ |
-| 10 | 컬렉션 프레임워크 - 순회, 정렬, 전체 정리 | `collection.iterable`, `compare`, `utils` | ⬜ |
-| 11 | 다음으로 | — | ⬜ |
+| 01 | 제네릭 - Generic1 | `generic.ex1`, `ex2`, `animal` | ✅ `01. 제네릭 - Generic1.md` |
+| 02 | 제네릭 - Generic2 | `generic.ex3`~`ex5` | ✅ `02. 제네릭 - Generic2.md` |
+| 03 | 컬렉션 프레임워크 - ArrayList | `collection.array` | ✅ `03. 컬렉션 프레임워크 - ArrayList.md` |
+| 04 | 컬렉션 프레임워크 - LinkedList | `collection.link` | ✅ `04. 컬렉션 프레임워크 - LinkedList.md` |
+| 05 | 컬렉션 프레임워크 - List | `collection.list` | ✅ `05. 컬렉션 프레임워크 - List.md` |
+| 06 | 컬렉션 프레임워크 - 해시(Hash) | `collection.set` | ✅ `06. 컬렉션 프레임워크 - 해시(Hash).md` |
+| 07 | 컬렉션 프레임워크 - HashSet | `collection.set` | ✅ `07. 컬렉션 프레임워크 - HashSet.md` |
+| 08 | 컬렉션 프레임워크 - Set | `collection.set.javaset` | ✅ `08. 컬렉션 프레임워크 - Set.md` |
+| 09 | 컬렉션 프레임워크 - Map, Stack, Queue | `collection.map`, `collection.deque` | ✅ `09. 컬렉션 프레임워크 - Map, Stack, Queue.md` |
+| 10 | 컬렉션 프레임워크 - 순회, 정렬, 전체 정리 | `collection.iterable`, `compare`, `utils` | ✅ `10. 컬렉션 프레임워크 - 순회, 정렬, 전체 정리.md` |
+| 11 | 다음으로 | — | — |
 
 **부록** — 챕터 순번과 무관한 배경 지식 정리는 `basic/docs/javaBasic/부록X. 제목.md`로 저장한다.
 

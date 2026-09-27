@@ -62,24 +62,24 @@
 
 ### 중급편 2 — 김영한 자바 중급편 2 (제네릭·컬렉션)
 
-실습 코드: [`basic/java-mid2/src`](basic/java-mid2/src) · 정리 md: [`basic/java-mid2/src/docs/`](basic/java-mid2/src/docs) — 챕터별 뼈대(PDF 목차 기반 섹션 제목)만 만들어 둔 상태
+실습 코드: [`basic/java-mid2/src`](basic/java-mid2/src) · 정리 md: [`basic/java-mid2/src/docs/`](basic/java-mid2/src/docs) — 01~10장 정리 완료, 전체 복습은 [`00. 전체 리뷰 - 제네릭과 컬렉션.md`](basic/java-mid2/src/docs/00.%20전체%20리뷰%20-%20제네릭과%20컬렉션.md)
 
 <details>
-<summary><b>챕터별 정리</b> (0/11)</summary>
+<summary><b>챕터별 정리</b> (10/10)</summary>
 
 | # | 챕터 | 실습 코드 패키지 | 정리 |
 |---|------|-----------------|------|
-| 01 | 제네릭 - Generic1 | `generic.ex1`, `ex2`, `animal` | ⬜ |
-| 02 | 제네릭 - Generic2 | `generic.ex3`~`ex5` | ⬜ |
-| 03 | 컬렉션 프레임워크 - ArrayList | `collection.array` | ⬜ |
-| 04 | 컬렉션 프레임워크 - LinkedList | `collection.link` | ⬜ |
-| 05 | 컬렉션 프레임워크 - List | `collection.list` | ⬜ |
-| 06 | 컬렉션 프레임워크 - 해시(Hash) | `collection.set` | ⬜ |
-| 07 | 컬렉션 프레임워크 - HashSet | `collection.set` | ⬜ |
-| 08 | 컬렉션 프레임워크 - Set | `collection.set.javaset` | ⬜ |
-| 09 | 컬렉션 프레임워크 - Map, Stack, Queue | `collection.map`, `collection.deque` | ⬜ |
-| 10 | 컬렉션 프레임워크 - 순회, 정렬, 전체 정리 | `collection.iterable`, `compare`, `utils` | ⬜ |
-| 11 | 다음으로 | — | ⬜ |
+| 01 | 제네릭 - Generic1 | `generic.ex1`, `ex2`, `animal` | ✅ [01. 제네릭 - Generic1](basic/java-mid2/src/docs/01.%20제네릭%20-%20Generic1.md) |
+| 02 | 제네릭 - Generic2 | `generic.ex3`~`ex5` | ✅ [02. 제네릭 - Generic2](basic/java-mid2/src/docs/02.%20제네릭%20-%20Generic2.md) |
+| 03 | 컬렉션 프레임워크 - ArrayList | `collection.array` | ✅ [03. 컬렉션 프레임워크 - ArrayList](basic/java-mid2/src/docs/03.%20컬렉션%20프레임워크%20-%20ArrayList.md) |
+| 04 | 컬렉션 프레임워크 - LinkedList | `collection.link` | ✅ [04. 컬렉션 프레임워크 - LinkedList](basic/java-mid2/src/docs/04.%20컬렉션%20프레임워크%20-%20LinkedList.md) |
+| 05 | 컬렉션 프레임워크 - List | `collection.list` | ✅ [05. 컬렉션 프레임워크 - List](basic/java-mid2/src/docs/05.%20컬렉션%20프레임워크%20-%20List.md) |
+| 06 | 컬렉션 프레임워크 - 해시(Hash) | `collection.set` | ✅ [06. 컬렉션 프레임워크 - 해시(Hash)](basic/java-mid2/src/docs/06.%20컬렉션%20프레임워크%20-%20해시(Hash).md) |
+| 07 | 컬렉션 프레임워크 - HashSet | `collection.set` | ✅ [07. 컬렉션 프레임워크 - HashSet](basic/java-mid2/src/docs/07.%20컬렉션%20프레임워크%20-%20HashSet.md) |
+| 08 | 컬렉션 프레임워크 - Set | `collection.set.javaset` | ✅ [08. 컬렉션 프레임워크 - Set](basic/java-mid2/src/docs/08.%20컬렉션%20프레임워크%20-%20Set.md) |
+| 09 | 컬렉션 프레임워크 - Map, Stack, Queue | `collection.map`, `collection.deque` | ✅ [09. 컬렉션 프레임워크 - Map, Stack, Queue](basic/java-mid2/src/docs/09.%20컬렉션%20프레임워크%20-%20Map,%20Stack,%20Queue.md) |
+| 10 | 컬렉션 프레임워크 - 순회, 정렬, 전체 정리 | `collection.iterable`, `compare`, `utils` | ✅ [10. 컬렉션 프레임워크 - 순회, 정렬, 전체 정리](basic/java-mid2/src/docs/10.%20컬렉션%20프레임워크%20-%20순회,%20정렬,%20전체%20정리.md) |
+| 11 | 다음으로 | — | — |
 
 </details>
 
