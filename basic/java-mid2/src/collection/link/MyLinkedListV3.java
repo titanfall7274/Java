@@ -50,7 +50,7 @@ public class MyLinkedListV3<E> {
         Node<E> removeNode = getNode(index);
         E removedItem = removeNode.item;
 
-        if(index == 0){
+        if (index == 0) {
             first = removeNode.next;
         } else {
             Node<E> prev = getNode(index - 1);
@@ -63,6 +63,7 @@ public class MyLinkedListV3<E> {
         size--;
         return removedItem;
     }
+
     public E get(int index) {
         Node<E> node = getNode(index);
         return node.item;

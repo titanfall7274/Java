@@ -39,8 +39,8 @@ public class NodeMain3 {
 
     private static Node getNode(Node node, int index) {
         Node x = node;
-        for (int i = 0; i <index; i++) {
-            if(x != null) {
+        for (int i = 0; i < index; i++) {
+            if (x != null) {
                 x = x.next;
             } else {
                 return null;
@@ -59,9 +59,9 @@ public class NodeMain3 {
 
     private static void printAll(Node node) {
         Node x = node;
-        while(x != null) {
+        while (x != null) {
             System.out.print(x.item);
-            if(x.next != null) {
+            if (x.next != null) {
                 System.out.print(" -> ");
             }
             x = x.next;

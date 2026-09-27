@@ -40,7 +40,7 @@ public class MyHashSetV2 {
         int hashIndex = hashIndex(value);
         LinkedList<Object> bucket = buckets[hashIndex];
 
-        if(bucket.contains(value)) {
+        if (bucket.contains(value)) {
             return false;
         }
 
@@ -70,7 +70,7 @@ public class MyHashSetV2 {
 
         // int value > Obejct value가 되면서 Integer.valueOf가 삭제되었다.
         boolean result = bucket.remove(value);
-        if(result) {
+        if (result) {
             size--;
             return true;
         } else {

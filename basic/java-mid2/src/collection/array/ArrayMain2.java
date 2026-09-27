@@ -38,7 +38,7 @@ public class ArrayMain2 {
     }
 
     private static void addAtIndex(int[] arr, int index, int value) {
-        for(int i = arr.length - 1; i > index; i--) {
+        for (int i = arr.length - 1; i > index; i--) {
             arr[i] = arr[i - 1];
         }
         arr[index] = value;

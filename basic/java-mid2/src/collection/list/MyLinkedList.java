@@ -57,7 +57,7 @@ public class MyLinkedList<E> implements MyList<E> {
     public void add(int index, E e) {
         Node<E> newNode = new Node(e);
 
-        if(index == 0) {
+        if (index == 0) {
             first = newNode;
         } else {
             Node<E> prev = getNode(index - 1);
@@ -97,7 +97,7 @@ public class MyLinkedList<E> implements MyList<E> {
         Node<E> removeNode = getNode(index);
         E removedItem = removeNode.item;
 
-        if(index == 0) {
+        if (index == 0) {
             first = removeNode.next;
         } else {
             Node<E> prev = getNode(index - 1);

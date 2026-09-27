@@ -37,7 +37,7 @@ public class MyHashSetV1 {
         int hashIndex = hashIndex(value);
         LinkedList<Integer> bucket = buckets[hashIndex];
 
-        if(bucket.contains(value)) {
+        if (bucket.contains(value)) {
             return false;
         }
 

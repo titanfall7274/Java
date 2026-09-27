@@ -11,7 +11,7 @@ public class MyHashSetV0 {
     // O(n) + O(1)
     public boolean add(int value) {
         // 값이 있는지 중복검사 O(n)
-        if(contains(value)) {
+        if (contains(value)) {
             return false;
         }
 
@@ -23,7 +23,7 @@ public class MyHashSetV0 {
 
     public boolean contains(int value) {
         for (int data : elementData) {
-            if(data == value) {
+            if (data == value) {
                 return true;
             }
         }

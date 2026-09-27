@@ -11,11 +11,11 @@ public class ArrayEx3 {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             int n = scanner.nextInt();
-            if(n == 0) break;
+            if (n == 0) break;
 
             students.add(n);
         }
-        
+
         int total = 0;
         for (int i = 0; i < students.size(); i++) {
             total += students.get(i);

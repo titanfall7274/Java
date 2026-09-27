@@ -28,7 +28,7 @@ public class MyArrayListV4<E> {
         elementData[size] = e;
         size++;
     }
-    
+
     public void add(int index, E e) {
         if (size == elementData.length) {
             grow(); // 크기를 2배로 증가 및 레퍼런스 변경

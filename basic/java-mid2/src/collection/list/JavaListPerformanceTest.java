@@ -84,7 +84,7 @@ public class JavaListPerformanceTest {
             list.get(index);
         }
         long endTime = System.currentTimeMillis();
-        System.out.println("찾는 대상 index: " + index + ", 반복 횟수: " + loop +", 계산 시간: " + (endTime - startTime) + "ms");
+        System.out.println("찾는 대상 index: " + index + ", 반복 횟수: " + loop + ", 계산 시간: " + (endTime - startTime) + "ms");
     }
 
     private static void search(List<Integer> list, int loop, int findValue) {
@@ -93,6 +93,6 @@ public class JavaListPerformanceTest {
             list.indexOf(findValue);
         }
         long endTime = System.currentTimeMillis();
-        System.out.println("찾는 값 findValue: " + findValue + ", 반복 횟수: " + loop +", 계산 시간: " + (endTime - startTime) + "ms");
+        System.out.println("찾는 값 findValue: " + findValue + ", 반복 횟수: " + loop + ", 계산 시간: " + (endTime - startTime) + "ms");
     }
 }

@@ -7,7 +7,7 @@ public class MyLinkedListV1 {
 
     public void add(Object e) {
         Node newNode = new Node(e);
-        if(first == null) {
+        if (first == null) {
             first = newNode;
         } else {
             Node lastNode = getLastNode();
@@ -18,7 +18,7 @@ public class MyLinkedListV1 {
 
     private Node getLastNode() {
         Node x = first;
-        while (x.next != null){
+        while (x.next != null) {
             x = x.next;
         }
         return x;
@@ -47,7 +47,7 @@ public class MyLinkedListV1 {
     public int indexOf(Object o) {
         int index = 0;
         for (Node x = first; x != null; x = x.next) {
-            if(o.equals(x.item)) return index;
+            if (o.equals(x.item)) return index;
             index++;
         }
         return -1;

@@ -38,7 +38,7 @@ public class MyArrayListV1 {
 
     public int indexOf(Object o) {
         for (int i = 0; i < size; i++) {
-            if(o.equals(elementData[i])) {
+            if (o.equals(elementData[i])) {
                 return i;
             }
         }

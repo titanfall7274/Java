@@ -32,7 +32,7 @@ public class HashStart5 {
         LinkedList<Integer> bucket = buckets[hashIndex]; // O(1)
 
         // 중복 검사
-        if(!bucket.contains(value)) {
+        if (!bucket.contains(value)) {
             bucket.add(value);
         }
     }

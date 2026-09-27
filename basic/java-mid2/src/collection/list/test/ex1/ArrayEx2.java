@@ -11,7 +11,7 @@ public class ArrayEx2 {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             int n = scanner.nextInt();
-            if(n == 0) break;
+            if (n == 0) break;
 
             numbers.add(n);
         }
@@ -19,7 +19,7 @@ public class ArrayEx2 {
         System.out.println("출력");
         for (int i = 0; i < numbers.size(); i++) {
             System.out.println(numbers.get(i));
-            if(i < numbers.size() - 1) {
+            if (i < numbers.size() - 1) {
                 System.out.print(", ");
             }
         }

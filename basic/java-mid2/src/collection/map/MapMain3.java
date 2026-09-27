@@ -13,7 +13,7 @@ public class MapMain3 {
 
         // 학생이 없는 경우에만 데이터 추가1
         boolean containsKey = studentMap.containsKey("studentA");
-        if(!containsKey) {
+        if (!containsKey) {
             studentMap.put("studentA", 100);
         }
         System.out.println("studentMap = " + studentMap);
