@@ -15,8 +15,6 @@ public class Server {
 
     private ServerSocket serverSocket;
 
-
-
     public Server(int port, CommandManager commandManager, SessionManager sessionManager) {
         this.port = port;
         this.commandManager = commandManager;
