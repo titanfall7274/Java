@@ -38,6 +38,7 @@ public class Ex1Main {
         System.out.println("실행 시간: " + (endNs - statNs) + "ns");
 
     }
+
     public static void main(String[] args) {
 //        helloDice();
 //        helloSum();

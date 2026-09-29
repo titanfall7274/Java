@@ -26,6 +26,6 @@ public class Ex1RefMain4 {
                 System.out.println("i = " + i);
             }
         });
-        
+
     }
 }
