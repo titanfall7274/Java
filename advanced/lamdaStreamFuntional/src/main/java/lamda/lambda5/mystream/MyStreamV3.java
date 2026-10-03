@@ -53,4 +53,9 @@ public class MyStreamV3<T> {
             consumer.accept(element);
         }
     }
+
+    // 추가 - 지연 연산과 파이프라인 최적화 예시
+    public T getFirst() {
+        return internalList.get(0);
+    }
 }
